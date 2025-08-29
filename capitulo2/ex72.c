@@ -3,14 +3,14 @@
 int main()
 {
 
-    float hectar = 10000, acres, conversao;
+    float hectar = 10000, metros, conversao;
 
-    printf("Digite uma quantidade de acres: ");
-    scanf("%f", &acres);
+    printf("Digite uma quantidade de metros: ");
+    scanf("%f", &metros);
 
-    conversao = acres * hectar;
+    conversao = metros * hectar;
 
-    printf("Conversao para metros quadrdos: %.2f", conversao);
+    printf("Conversao para hectares: %.2f", conversao);
 
     return 0;
 }
