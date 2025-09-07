@@ -15,7 +15,7 @@ int main() {
     printf("Digite a largura do terreno em metros: ");
     scanf("%f", &largura);
 
-    printf("Digite o preço do metro de arame em R$: ");
+    printf("Digite o preco do metro de arame em R$: ");
     scanf("%f", &preco_metro_arame);
 
     perimetro = 2 * (comprimento + largura);
@@ -23,7 +23,7 @@ int main() {
     custo_total = perimetro * preco_metro_arame;
 
     printf("\n--- Resultados ---\n");
-    printf("Metros de cerca necessários: %.2f metros\n", perimetro);
+    printf("Metros de cerca necessarios: %.2f metros\n", perimetro);
     printf("Custo total para cercar o terreno: R$ %.2f\n", custo_total);
 
     return 0; 
